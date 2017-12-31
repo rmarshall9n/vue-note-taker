@@ -8,12 +8,12 @@
 
 <script>
     export default {
-
         data() {
             return {
                 links: [
                     { route: '/', name: 'Home' },
                     { route: '/notes', name: 'Notes' },
+                    { route: '/notes/add', name: 'Create Note' },
                 ]
             }
         }

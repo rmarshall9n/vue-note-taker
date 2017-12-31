@@ -2,7 +2,9 @@
   <div id="app">
     <app-header></app-header>
     <app-nav></app-nav>
-    <router-view></router-view>
+    <div class="content">
+      <router-view></router-view>
+    </div>
     <app-footer></app-footer>
   </div>
 </template>
@@ -35,6 +37,12 @@
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  .content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
   }
 
   body {
